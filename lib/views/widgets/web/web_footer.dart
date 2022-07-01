@@ -10,6 +10,7 @@ class WebFooter extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       color: AppColors.footerColor,
+      width: double.infinity,
       child: Padding(
         padding: const EdgeInsets.all(5),
         child: Row(

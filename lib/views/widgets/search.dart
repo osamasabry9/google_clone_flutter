@@ -22,7 +22,7 @@ class Search extends StatelessWidget {
           height: 30,
         ),
         SizedBox(
-          width: size.width * 0.6,
+          width: size.width > 768 ? size.width * 0.6 : size.width * 0.9,
           child: TextFormField(
             decoration: InputDecoration(
               border: const OutlineInputBorder(
