@@ -4,6 +4,7 @@ import 'package:google_clone/shared/config/app_colors.dart';
 import 'package:google_clone/views/widgets/search.dart';
 import 'package:google_clone/views/widgets/web/search_buttons.dart';
 import 'package:google_clone/views/widgets/web/translation_buttons.dart';
+import 'package:google_clone/views/widgets/web/web_footer.dart';
 
 class WebScreenLayout extends StatelessWidget {
   const WebScreenLayout({super.key});
@@ -83,6 +84,7 @@ class WebScreenLayout extends StatelessWidget {
                       TranslationButtons(),
                     ],
                   ),
+                  const WebFooter(),
                 ],
               ),
             ),

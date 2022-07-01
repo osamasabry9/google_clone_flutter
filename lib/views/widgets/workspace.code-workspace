@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "assets",
+			"path": "../../../../../Downloads/google-clone-flutter-master/assets"
+		},
+		{
+			"name": "google_clone",
+			"path": "../../.."
+		}
+	],
+	"settings": {}
+}
