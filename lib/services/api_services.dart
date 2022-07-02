@@ -1,7 +1,8 @@
 import 'dart:convert';
 
-import 'package:google_clone/config/api_json.dart';
-import 'package:google_clone/config/api_keys.dart';
+
+import 'package:google_clone/shared/config/api_json.dart';
+import 'package:google_clone/shared/config/api_keys.dart';
 import 'package:http/http.dart' as http;
 
 class ApiService {
