@@ -1,6 +1,6 @@
 # google_clone
 
-A new Flutter project.
+Responsive Chrome Browser with Web and Mobile.
 
 ## Getting Started
 
