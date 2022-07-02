@@ -71,24 +71,27 @@ class MobileScreenLayout extends StatelessWidget {
               height: _size.height * 0.18,
             ),
             Expanded(
-              child: Column(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: [
-                  Column(
-                    children: const [
-                      Search(),
-                      SizedBox(
-                        height: 20,
-                      ),
-                      SearchButtons(),
-                      SizedBox(
-                        height: 20,
-                      ),
-                      TranslationButtons(),
-                    ],
-                  ),
-                  const MobileFooter(),
-                ],
+              child: SingleChildScrollView(
+                physics: const BouncingScrollPhysics(),
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    Column(
+                      children: const [
+                        Search(),
+                        SizedBox(
+                          height: 20,
+                        ),
+                        SearchButtons(),
+                        SizedBox(
+                          height: 20,
+                        ),
+                        TranslationButtons(),
+                      ],
+                    ),
+                    const MobileFooter(),
+                  ],
+                ),
               ),
             ),
           ],
